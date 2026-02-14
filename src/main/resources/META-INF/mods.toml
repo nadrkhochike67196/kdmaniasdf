@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="teleportmonster"
+version="${file.jarVersion}"
+displayName="Teleport Monster Mod"
+description='''
+Добавляет опасного телепортирующегося монстра в Minecraft!
+'''
+
+[[dependencies.teleportmonster]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.teleportmonster]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
